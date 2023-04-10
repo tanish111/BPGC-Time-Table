@@ -29,6 +29,8 @@ function SearchHandler() {
             for(let k = 0;k<10;k++){
                 if(period[k+1].substr(2) != "'"){
                 cell[j+k*6].innerHTML = '<button class="class_box">'+toTitleCase(period[k+1].substr(2,(period[k+1].length-3)))+'</button>'
+            }else{
+              cell[j+k*6].innerHTML = ''
             }
             }
         }
