@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+    height: 100%; 
+    overflow: none;
+}
+.title_bar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.bits_id_label{
+    margin-right: 40px;
+}
+.go{
+    margin-left: 10px;
+    height:33px;
+    border-radius: 10px;
+    border: white 0px solid;
+    background-color: #dbdbdb;
+}
+.title_element_input{
+    height: 30px;
+    padding:0px;
+    border-radius: 9px;
+    border: white 0px solid;
+    background-color: #E6EEFD;
+    width: 150px;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #035003;
+}
+.time_table{
+    display: flex;
+    justify-content: center;
+}
+.t_table{
+    margin-top: 30px;
+}
+table, th {
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+
+  }
+  .class_box{
+    border-radius: 45%;
+    background-color: rgba(146, 154, 171, .3);  
+    backdrop-filter: blur(10px);
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    border: none;
+  }
+

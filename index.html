@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,600;1,900&display=swap" rel="stylesheet">
+    <title>Time Table</title>
+    <style>
+        /* Styles for desktop screens */
+        .t_table th, .t_table td {
+            padding: 10px;
+        }
+        /* Styles for mobile screens */
+        @media only screen and (max-width: 600px) {
+            .t_table th, .t_table td {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title_bar">
+        <label for="bits_id" class=" bits_id_label">Enter your roll number </label>
+        <input type="text" id="bits_id" name="bits_id" class="title_element_input"><br><br>
+        <button class="go" id="Go_Bt">Go</button>
+    </div>
+    <div class="time_table">
+        <table class="t_table">
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thusday</th>
+                <th>Friday</th>
+                <th>Saterday</th>
+            </tr>
+            <tr>
+                <th>8:00 to 9:00</th>
+                <td id="M_1"><button class="class_box">M2 Tut</button></td>
+                <td id="T_1"><button class="class_box">Thermo Tut</button></td>
+                <td id="W_1"></td>
+                <td id="TH_1"><button class="class_box">MOW Tut</button></td>
+                <td id="F_1"> </td>
+                <td id="S_1"></td>
+            </tr>
+            <tr>
+                <th>9:00 to 10:00</th>
+                <td id="M_2"><button class="class_box">Bio Lab</button></td>
+                <td id="T_2"></td>
+                <td id="W_2"><button class="class_box">WS Practical</button></td>
+                <td id="TH_2"></td>
+                <td id="F_2"></td>
+                <td id="S_2"></td>
+            </tr>
+            <tr>
+                <th>10:00 to 11:00</th>
+                <td><button class="class_box">Bio Lab</button></td>
+                <td><button class="class_box">Thermo Lecture</button></td>
+                <td><button class="class_box">WS Practical</button></td>
+                <td><button class="class_box">Thermo Lecture</button></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>11:00 to 12:00</th>
+                <td></td>
+                <td></td>
+                <td><button class="class_box">WS Practical</button></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>12:00 to 1:00</th>
+                <td><button class="class_box">MOW Lecture</button></td>
+                <td><button class="class_box">CP Lecture</button></td>
+                <td><button class="class_box">MOW Lecture</button></td>
+                <td><button class="class_box">CP Lecture</button></td>
+                <td><button class="class_box">MOW Tut</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>1:00 to 2:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2:00 to 3:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>           
+             <tr>
+                <th>3:00 to 4:00</th>
+                <td><button class="class_box">M2 Lecture</button></td>
+                <td></td>
+                <td><button class="class_box">M2 Lecture</button></td>
+                <td><button class="class_box">M2 Lecture</button></td>
+                <td><button class="class_box">Thermo Tut</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>4:00 to 5:00</th>
+                <td><button class="class_box">ES Lecture</button></td>
+                <td><button class="class_box">WS Theory</button></td>
+                <td><button class="class_box">ES Lecture</button></td>
+                <td><button class="class_box">
+                    ES Lecture</button></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5:00 to 6:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button class="class_box">CP Lecture</button></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
