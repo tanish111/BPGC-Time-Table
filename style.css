@@ -158,11 +158,12 @@ table, th {
         margin-right: 5px;
     }
     th{
-        font-size: 4px;
+        font-size: 5px;
+
     }
     .class_box{
-        font-size: 4px;
-        max-width: 40px;
+        font-size: 5px;
+        max-width: 50px;
     }
 
   }
