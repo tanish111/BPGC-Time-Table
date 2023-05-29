@@ -13,14 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,600;1,900&display=swap" rel="stylesheet">
     <title>Time Table</title>
 </head>
-<body>
-    <div class="title_bar">
-        <label for="bits_id" class=" bits_id_label">Enter your roll number </label>
+<body id="background">
+    <div class="title_bar" id="title_b">
+        <label for="bits_id" class=" bits_id_label" id="title_heading">Enter your roll number </label>
         <input type="text" id="bits_id" name="bits_id" class="title_element_input"><br><br>
         <button class="go" id="Go_Bt">Go</button>
     </div>
     <div class="time_table">
-        <table class="t_table">
+        <table class="t_table" id="main_table">
             <tr>
                 <th>Time</th>
                 <th>Monday</th>
@@ -122,6 +122,10 @@
                 <td><button class="class_box">CP Lecture</button></td>
             </tr>
         </table>
+        <div class="DMode">
+        <input type="checkbox" id="DarkModei"/>
+        <label for="DarkModei" id="DarkMode"><img src = "assets/moon.svg" alt="sun-mode" id="img_change"/></label>
+    </div>
     </div>
     <script type="text/javascript" src="app.js"></script>
 </body>
